@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.h-bar {
+    text-decoration: none;
+    color: rgb(185, 190, 196);
+    font-size: 20px;
+}
+
+.header {
+    padding-inline: 250px;
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(31, 31, 31);
+    align-items: center;
+}
+
+#logo {
+    width: 35px;
+}
+
+.main {
+    display: flex;
+    padding-inline: 250px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    color: rgb(66, 156, 216);
+}
+
+.btn {
+    background-color: rgb(66, 156, 216);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#btn-1 {
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: 17px;
+}
+
+#btn-2 {
+    padding-inline: 20px;
+    padding-block: 15px;
+    font-size: 19px;
+}
