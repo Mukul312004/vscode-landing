@@ -7,46 +7,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <span style="display: flex; justify-content: space-around; align-items: center;">
+    <header class="header">
+        <div class="brand">
             <img src="icon.png" alt="logo" id="logo">
-            <a href="" style="font-size: 20px;color: white; text-decoration: none; margin-left: 10px;font-size: 25px;">Visual Studio Code</a>
-        </span>
-        <span><a href="" class="h-bar">Docs</a></span>
-        <span><a href="" class="h-bar">Updates</a></span>
-        <span><a href="" class="h-bar">Blog</a></span>
-        <span><a href="" class="h-bar">API</a></span>
-        <span><a href="" class="h-bar">Extensions</a></span>
-        <span><a href="" class="h-bar">FAQ</a></span>
-        <span><a href="" class="h-bar">Learn</a></span>
-        <span style="display: flex; justify-content: space-around; align-items: center;">
-            <img src="searchbtn.png" alt="" style="padding-right: 10px; width: 30px;">
+            <a href="#" class="brand-title">Visual Studio Code</a>
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="h-bar">Docs</a>
+            <a href="#" class="h-bar">Updates</a>
+            <a href="#" class="h-bar">Blog</a>
+            <a href="#" class="h-bar">API</a>
+            <a href="#" class="h-bar">Extensions</a>
+            <a href="#" class="h-bar">FAQ</a>
+            <a href="#" class="h-bar">Learn</a>
+        </nav>
+        <div class="header-actions">
+            <img src="searchbtn.png" alt="Search" class="search-btn" id="search-btn">
             <button class="btn" id="btn-1">Download</button>
-        </span>
+        </div>
+    </header>
+
+    <div class="announcement">
+        <a href="#">Version 1.91</a> is now available! Read about the new features and fixes from June.
     </div>
-    <br>
-    <div style="align-self: center;"><a href="">Version 1.91</a> is now available! Read about the new features and fixes from June.</div>
-    <br>
-    <br>
-    <br>
-    <div class="main">
-        <span>
-            <div style="background-color: rgb(31, 31, 32); color: rgb(185, 190, 196);padding: 6px; border: 1px solid rgb(185, 190, 196);border-radius: 30px;padding-inline: 7px; margin-right: 70px; display: flex; justify-content: center;">
+
+    <main class="main">
+        <div class="hero-left">
+            <div class="pill">
                 Free. Built on open source. Runs everywhere!
             </div>
             <h1>Code</h1>
             <h1>Editing.</h1>
             <h1>Redefined.</h1>
-            <br>
             <button class="btn" id="btn-2">Download for Windows</button>
-            <p style="font-size: 18px;"><a href="">Web</a>, <a href="">Insiders edition</a>, or <a href="">Other platforms</a></p>
-            <div style="font-size: 12px;">
-                By using VS Code, you agree to it's <a>license</a> and <a>Privacy Statement</a>
+            <p class="platforms"><a href="#">Web</a>, <a href="#">Insiders edition</a>, or <a href="#">Other platforms</a></p>
+            <div class="terms">
+                By using VS Code, you agree to it's <a href="#">license</a> and <a href="#">Privacy Statement</a>
             </div>
-        </span>
-        <span>
-            <img src="ui.png" alt="UI of VS Code" style="width: 600px;">
-        </span>
-    </div>
+        </div>
+        <div class="hero-right">
+            <img src="ui.png" alt="UI of VS Code" class="hero-img">
+        </div>
+    </main>
 </body>
 </html>
